@@ -32,6 +32,10 @@ Function CreateCategories()
     Category.Process = DoKexp
     aa.PosterItems.push(Category)
 
+    Category = CreatePosterItem("proton","Proton Radio","Radio Station")
+    Category.Process = DoProton
+    aa.PosterItems.push(Category)
+
     Category = CreatePosterItem("shake","Shake The Shack","Radio Show")
     Category.Process = DoShake
     aa.PosterItems.push(Category)
